@@ -1,0 +1,104 @@
+.product {
+  width: 90%;
+  margin: 0 auto;
+  // height: 170vh;
+  padding: 1% 0px;
+  display: flex;
+  flex-direction: column;
+  .wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 0px;
+    button {
+      padding: 15px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 5px;
+      background-color: inherit;
+      color: inherit;
+      cursor: pointer;
+      width: 24%;
+      border-color: inherit;
+      text-transform: capitalize;
+    }
+  }
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    .card {
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      border: 2px solid gainsboro;
+      width: 30%;
+      // height: 550px;
+      justify-content: space-between;
+      img {
+        height: 65%;
+        width: 100%;
+      }
+      p {
+        color: inherit;
+        font-weight: 600;
+        font-size: 16px;
+      }
+      button {
+        color: inherit;
+        background-color: inherit;
+        border-color: inherit;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+.kar {
+  width: 90%;
+  margin: 0 auto;
+  // height: 170vh;
+  padding: 1% 0px;
+  display: flex;
+  flex-direction: column;
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    .card {
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      border: 2px solid gainsboro;
+      width: 30%;
+      // height: 550px;
+      justify-content: space-between;
+      img {
+        height: 65%;
+        width: 100%;
+      }
+      p {
+        color: inherit;
+        font-weight: 600;
+        font-size: 16px;
+      }
+      button{
+          color: inherit;
+          background-color: inherit;
+          border-color: inherit;
+          padding: 10px;
+          font-weight: 600;
+          font-size: 20px;
+          border-radius: 5px;
+      }
+    }
+  }
+}

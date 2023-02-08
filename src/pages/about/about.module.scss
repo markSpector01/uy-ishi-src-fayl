@@ -1,0 +1,17 @@
+.pi{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86vh;
+    gap: 30px;
+    p{
+        font-size: 20px;
+        font-weight: 600;
+        span{
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+}
